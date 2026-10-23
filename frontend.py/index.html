@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Smart Factory</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🏭 AI-Powered Smart Factory</h1>
+        <p>Safety Monitoring & Digital Twin</p>
+    </header>
+
+
+    <main>
+
+        <!-- STATUS -->
+        <section class="status-section">
+
+            <div class="status-card">
+                <h3>Factory Status</h3>
+                <p id="factory-status">Loading...</p>
+            </div>
+
+            <div class="status-card">
+                <h3>👷 Workers</h3>
+                <p id="workers">--</p>
+            </div>
+
+            <div class="status-card">
+                <h3>🪖 PPE Compliant</h3>
+                <p id="ppe">--</p>
+            </div>
+
+            <div class="status-card">
+                <h3>🚨 Violations</h3>
+                <p id="violations">--</p>
+            </div>
+
+            <div class="status-card">
+                <h3>🔥 Fire / Smoke</h3>
+                <p id="fire">--</p>
+            </div>
+
+        </section>
+
+
+        <!-- DIGITAL TWIN -->
+        <section class="digital-twin">
+
+            <h2>Digital Twin — Factory Overview</h2>
+
+            <div class="factory">
+
+                <div class="machine safe">
+                    ⚙️
+                    <span>Machine 1</span>
+                </div>
+
+                <div class="machine safe">
+                    ⚙️
+                    <span>Machine 2</span>
+                </div>
+
+                <div class="machine warning">
+                    ⚙️
+                    <span>Machine 3</span>
+                </div>
+
+                <div class="machine danger">
+                    ⚙️
+                    <span>Machine 4</span>
+                </div>
+
+                <div class="worker">
+                    👷
+                    <span>Worker</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ALERTS -->
+
+        <section class="alerts">
+
+            <h2>🚨 Safety Alerts</h2>
+
+            <div class="alert">
+                ⚠️ Worker without helmet — Zone B
+            </div>
+
+            <div class="alert">
+                ⚠️ Restricted zone entry detected
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
